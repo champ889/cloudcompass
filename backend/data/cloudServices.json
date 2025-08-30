@@ -1,0 +1,1173 @@
+{
+  "compute": {
+    "displayName": "Compute Services",
+    "headers": [
+      "Cloud Provider",
+      "App Development/ Deployment (Java /.Net /PHP /Python)",
+      "Auto Scaling",
+      "Bare Metal Server",
+      "Batch Jobs",
+      "Container Management Service",
+      "Container Registration Service",
+      "Event Driven Computing",
+      "High Performance Computing",
+      "Micro Services App Development Platform",
+      "Serverless app repository",
+      "Serverless compute for containers",
+      "Serverless container platform",
+      "Shared Web hosting",
+      "VMware",
+      "Virtual Dedicated Host",
+      "Virtual Private Servers",
+      "Virtual Server"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS Elastic Beanstalk",
+          "Auto Scaling",
+          "Amazon EC2 Bare Metal Instance",
+          "AWS Batch",
+          "Amazon Elastic Container Service (ECS) / Amazon Elastic Kubernetes Service (EKS) / Red Hat Openshift on AWS / Bottlerocket",
+          "Amazon Elastic Container Registry (ECR)",
+          "AWS Lambda",
+          "High Performance Computing / AWS ParallelCluster / Elastic Fabric Adapter / NICE DCV",
+          "AWS Lambda",
+          "AWS Serverless Application Repository",
+          "AWS Fargate / AWS Proton",
+          "AWS App Runner",
+          "AWS Amplify",
+          "VMC on AWS",
+          "Amazon EC2 Dedicated Hosts / AWS Nitro Enclaves",
+          "Amazon Lightsail",
+          "Amazon EC2"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Web Apps / Azure Cloud Services",
+          "Azure Autoscale / Virtual Machine Scale Sets",
+          "Azure Bare Metal Servers (Large Instance Only for SAP Hana)",
+          "Azure Batch",
+          "Azure Kubernetes Service (AKS) / Azure Container Instances / Azure Red Hat OpenShift",
+          "Azure Container Registry",
+          "Azure Functions / Event Grid",
+          "Azure High Performance Compute",
+          "Azure Service Fabric / Azure Functions / Event Grid",
+          "",
+          "Azure Container Instances / Azure Container Apps",
+          "Azure Container Apps",
+          "Web Apps",
+          "Azure VMware Solution",
+          "Azure Dedicated Host",
+          "Azure App Service Environment",
+          "Azure Virtual Machine"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "Google App engine",
+          "Auto Scaler",
+          "Bare Metal Solution",
+          "Preemptible VMs",
+          "Kubernetes Engine",
+          "Artifact Registry",
+          "Cloud Functions / EventArc",
+          "High performance computing",
+          "Google Cloud Functions / EventArc",
+          "",
+          "Google Cloud Run",
+          "Google Cloud Run",
+          "Firebase",
+          "Google Cloud VMware Engine",
+          "Sole Tenant Node (Beta)",
+          "",
+          "Compute Engine"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Application Container Cloud Service / Java Cloud Service",
+          "Oracle Autoscaling Instance Pools",
+          "Oracle Bare Metal Servers",
+          "Oracle Burstable Instances",
+          "Container Engine for Kubernetes (OKE)",
+          "Oracle Cloud Infrastructure Registry",
+          "Oracle Functions",
+          "Oracle Dedicated Virtual Machine Hosts",
+          "Oracle Functions",
+          "",
+          "",
+          "Oracle Functions",
+          "",
+          "Oracle Cloud VMWare Solution",
+          "Dedicated Virtual Machine Hosts",
+          "",
+          "Oracle Cloud Infrastructure Compute,"
+        ]
+      }
+    ]
+  },
+  "storage": {
+    "displayName": "Storage Services",
+    "headers": [
+      "Cloud Provider",
+      "File Storage (SMB Compatible)",
+      "Hybrid Storage/Storage Gateway",
+      "Long Term Cold Storage",
+      "Object Storage",
+      "Virtual Machine Disk Storage"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "Amazon Elastic File System (EFS) / Amazon FSx for Windows File Server / Amazon FSx for Lustre / Amazon FSx for NetApp ONTAP / Amazon FSx for OpenZFS",
+          "AWS Storage Gateway",
+          "Amazon S3 Glacier",
+          "Amazon Simple Storage Service (S3)",
+          "Amazon Elastic Block Storage (EBS)"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Files / Azure NetApp Files",
+          "Azure Storsimple",
+          "Azure Archive Storage / Azure Cool Storage",
+          "Azure Blob Storage",
+          "Azure Page Blobs / Premium Storage / Managed Disks"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "File Store",
+          "",
+          "Cloud Storage",
+          "Cloud Storage",
+          "Persistent Disk"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle File Storage Services",
+          "Oracle Cloud Infrastructure Storage Gateway",
+          "Oracle Cloud Infrastructure Archive Storage / Oracle Cloud Object Storage Infrequent Access Tier",
+          "Oracle Cloud Infrastructure Object Storage",
+          "Oracle Cloud Infrastructure Block Volumes"
+        ]
+      }
+    ]
+  },
+  "database": {
+    "displayName": "Database Services",
+    "headers": [
+      "Cloud Provider",
+      "Data Warehousing",
+      "Graph Database",
+      "In-Memory Data Store",
+      "Non Relational Database Management Service",
+      "Relational Database Management Service",
+      "Timeseries Database"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "Amazon Redshift",
+          "Amazon Neptune",
+          "Amazon ElastiCache / Amazon MemoryDB for Redis",
+          "Amazon DynamoDB / Amazon DynamoDB Accelerator (DAX) / Amazon DocumentDB (with MongoDB compatibility) / Amazon Keyspaces (Apache Cassandra)",
+          "Amazon Aurora / Amazon RDS",
+          "Amazon Timestream"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Synapse Analytics",
+          "",
+          "Azure Cache for Redis",
+          "Azure CosmosDB / Table Storage / Azure Time Series Insights",
+          "Azure SQL Database / SQL Server Stretch Database / Azure Database for MySQL / Azure Database for PostgresSQL / Azure SQL Database Edge",
+          "Azure Time Series Insights"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "BigQuery",
+          "",
+          "Cloud MemoryStore",
+          "Cloud Datastore / Cloud Firestore",
+          "Cloud SQL / Cloud Spanner",
+          "Cloud Bigtable"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Exadata Cloud Service / Autonomous Data Warehouse Cloud",
+          "Graph Database",
+          "",
+          "Oracle NoSQL Database Cloud Service / Oracle Autonomous JSON Database",
+          "Oracle Database Cloud Service - Virtual Machine / Oracle Database Cloud Service - Bare Metal / Oracle Exadata Cloud Service / Oracle Autonomous Data Warehouse / Oracle Autonomous Transaction Processing / MySQL Database Service / MySQL Heatwave Service",
+          ""
+        ]
+      }
+    ]
+  },
+  "migration_services": {
+    "displayName": "Migration Services Services",
+    "headers": [
+      "Cloud Provider",
+      "Database Migration Services",
+      "Large Scale Data Transfer Solution (Exabyte Scale)",
+      "Large Scale Data Transfer Solution (Petabyte Scale)",
+      "Large Scale Data Transfer Solution (Terabyte Scale)",
+      "Server Migration Services",
+      "Small Scale Data Transfer Service"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS Database Migration Service / AWS Migration Hub",
+          "AWS Snowmobile",
+          "AWS Snowball / AWS DataSync",
+          "AWS Snowcone / AWS Snowball Edge Compute Optimized / AWS DataSync",
+          "AWS Server Migration Service / AWS Application Migration Service / AWS Migration Hub",
+          "AWS Snowball / AWS Transfer Family"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Database Migration Service",
+          "",
+          "Azure Data Box",
+          "Azure Data Box",
+          "Site Recovery / Azure App Service migration",
+          "Azure Import/Export"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "Database Migration Service",
+          "",
+          "Transfer Appliance",
+          "Transfer Appliance",
+          "Migrate for Compute Engine / Migrate to Containers / Application Migration",
+          "Storage Transfer Service"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Lift Services",
+          "Data Transfer Services",
+          "Data Transfer Services - Storage applicance import",
+          "Data Transfer Services - Storage applicance import",
+          "",
+          "Data Transfer Services - Hard Disk Import"
+        ]
+      }
+    ]
+  },
+  "application_discovery_services": {
+    "displayName": "Application Discovery Services Services",
+    "headers": [
+      "Cloud Provider",
+      "Application Discovery Services"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "Application Discovery Service"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Active Directory"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          ""
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          ""
+        ]
+      }
+    ]
+  },
+  "networking": {
+    "displayName": "Networking & Content Delivery Services",
+    "headers": [
+      "Cloud Provider",
+      "Content Delivery Network",
+      "Global Traffic Management",
+      "Load Balancers",
+      "Network Gateway",
+      "Networking & Content Delivery",
+      "Private Connectivity",
+      "Virtual Networking",
+      "Virtual network connectivity"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "Amazon CloudFront",
+          "Amazon Route 53 Traffic Flow / AWS Global Accelerator / AWS App Mesh",
+          "Elastic Load Balancing",
+          "AWS Site-to-Site VPN / AWS Client VPN",
+          "Amazon Route 53",
+          "AWS Direct Connect / AWS Private Link",
+          "Amazon VPC",
+          "AWS Transit Gateway / AWS VPC peering"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure CDN / Azure Front Door",
+          "Azure Traffic Manager",
+          "Azure Load Balancer",
+          "Azure VPN Gateway",
+          "Azure DNS",
+          "Azure Express Route",
+          "Azure VNet",
+          "Azure VNet Peering"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "Cloud CDN",
+          "",
+          "Cloud Load Balancing",
+          "Cloud VPN",
+          "Cloud DNS",
+          "Cloud Hybrid Connectivity",
+          "Virtual Private Cloud",
+          "Google VPC Peering"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "",
+          "Oracle Cloud Infrastructure Traffic Management",
+          "Oracle Cloud Infrastructure Load Balancing",
+          "Oracle VPN Connect",
+          "Oracle DNS",
+          "Oracle Cloud Infrastructure FastConnect",
+          "Oracle Virtual Cloud Network",
+          "Oracle Dynamic Routing Gateway"
+        ]
+      }
+    ]
+  },
+  "hybrid_cloud": {
+    "displayName": "Hybrid Cloud Services",
+    "headers": [
+      "Cloud Provider",
+      "Hybrid Cloud"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS Outposts"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Arc"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "Google Anthos"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Exadata Cloud@Customer / Oracle Roving Edge Infrastructure"
+        ]
+      }
+    ]
+  },
+  "developer_tools": {
+    "displayName": "Developer Tools Services",
+    "headers": [
+      "Cloud Provider",
+      "Cloud Software Development Kit"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS Cloud9 / AWS Code Star / AWS CodeCommit / AWS CodeBuild / AWS CodeDeploy / AWS CodePipeline / AWS X-Ray / Amazon DevOps Guru / Amazon CodeGuru / AWS Fault Injection Simulator"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Boards / Azure Pipelines / Azure Repos / Azure Test Plans / Azure Artifacts"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "Cloud Source Repositories"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Visual Builder Studio"
+        ]
+      }
+    ]
+  },
+  "management_tools": {
+    "displayName": "Management Tools Services",
+    "headers": [
+      "Cloud Provider",
+      "Alerts and Remediation guidance Service",
+      "Automated Infra Management Services",
+      "Cloud Cost / Performance / Security Advisor",
+      "Cloud Deployment Templates/ Infra as Code",
+      "Cloud Management Tools",
+      "Logging & Monitoring",
+      "Resource / Configuration Inventory",
+      "Server Automation",
+      "Server Management Services"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS Personal Health Dashboard / Amazon CloudWatch / AWS Security Hub / AWS Audit Manager",
+          "AWS Managed Services",
+          "AWS Trusted Advisor / AWS Well-Architected Tool / AWS Cost Management / AWS Cost Explorer / AWS Compute Optimizer",
+          "AWS CloudFormation / AWS OpsWorks",
+          "AWS Command Line Interface / AWS CloudShell / AWS Management Console / AWS Console Mobile Application / AWS Tools & SDKs",
+          "Amazon CloudWatch / AWS CloudTrail / AWS X-Ray / AWS Distro for OpenTelemetry (Preview) / Amazon Managed Service for Grafana (Preview) / Amazon Managed Service for Prometheus (Preview)",
+          "AWS Config / AWS License Manager",
+          "AWS OpsWorks",
+          "AWS Systems Manager"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Monitor / Azure Operations Management Suite (OMS)",
+          "",
+          "Azure Advisor / Azure Cost Management",
+          "Azure Resource Manager / Azure Building Blocks",
+          "Azure Command Line Interface / Azure Powershell / Azure Management Console / Azure Cloud Shell",
+          "Log Analytics / Azure portal / Application Insights",
+          "Azure portal (audit logs)",
+          "Resource Manager / Azure Automation / VM Extentions",
+          "Azure Operational Insights"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "",
+          "",
+          "Google Cloud Platform Security",
+          "Cloud Resource Manager / Cloud Deployment Manager",
+          "Cloud Shell / Cloud Console / Billing API / Cloud APIs",
+          "Google StackDriver / Monitoring / Logging / Error Reporting / Trace / Debugger",
+          "Cloud Security Scanner / Cloud Data Loss Prevention Api / Access Transparency (Beta)",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Management Cloud / Oracle Cloud Guard / Oracle Security Advisor",
+          "",
+          "Oracle Cloud Guard / Oracle Cloud Advisor",
+          "Oracle Resource Manager",
+          "OCI CLI / Oracle Cloud Shell / Oracle Management Console / REST API",
+          "Oracle Cloud Infrastructure Logging / Oracle Logging Analytics / Oracle Cloud Infrastructure Monitoring / Application Performance Monitoring (limited availability) / Oracle Service Connector Hub / Management Cloud",
+          "Oracle Cloud Governance Services",
+          "Oracle Cloud Infrastructure OS Management / Oracle Resource Manager",
+          "Oracle Management Cloud"
+        ]
+      }
+    ]
+  },
+  "disaster_recovery_services": {
+    "displayName": "Disaster Recovery Services Services",
+    "headers": [
+      "Cloud Provider",
+      "Automated Disaster Recovery Services"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS Disaster Recovery / AWS Backup"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Site Recovery / Azure Backup"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          ""
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Database Backup"
+        ]
+      }
+    ]
+  },
+  "security_identity_&_compliance": {
+    "displayName": "Security, Identity & Compliance Services",
+    "headers": [
+      "Cloud Provider",
+      "Cloud Security Assesment Service",
+      "Consolidated Management of Multiple Cloud Accounts",
+      "Customer Identity and Access Management",
+      "DDos Protection Service",
+      "Directory Services",
+      "Hardware Based Security Module",
+      "Identity & Access Management",
+      "Key Management Services",
+      "Secured Socket Layer (SSL) Certificates",
+      "Security & Compliance Service",
+      "Sensitive Data discovery and protection",
+      "Web Application Firewall"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "Amazon Inspector / Guard Duty",
+          "AWS Organizations / AWS Control Tower / AWS Resource Access Manager",
+          "Amazon Cognito",
+          "AWS Shield",
+          "AWS Directory Service",
+          "AWS CloudHSM / AWS Secrets Manager",
+          "AWS Identity and Access Management (IAM)",
+          "AWS Key Management Service",
+          "AWS Certificate Manager",
+          "AWS Firewall Manager / AWS Network Firewall",
+          "Amazon Macie",
+          "AWS WAF"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Security Center",
+          "Azure Management Groups",
+          "Azure Active Directory B2C",
+          "Azure DDoS Protection",
+          "Azure Active Directory / Azure Active Directory B2C / Azure Active Directory Domain Services / Azure Active Directory Multi Factor Authentication",
+          "Azure Key Vault",
+          "Azure Active Directory",
+          "Azure Key Vault",
+          "App Service Certificate",
+          "Azure Firewall Manager",
+          "",
+          "Azure WAF"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "",
+          "",
+          "Firebase Authentication / Identity Platform",
+          "Cloud Armor (Beta)",
+          "Cloud IAM / Cloud Identity-Aware Proxy / Security Key Enforcement",
+          "Cloud Key Management Service",
+          "Cloud IAM / Cloud Identity-Aware Proxy",
+          "Cloud Key Management Service",
+          "",
+          "Cloud Security Command Center (Alpha)",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Security Advisor / Oracle Cloud Guard",
+          "",
+          "",
+          "Oracle DDoS Protection",
+          "Oracle Directory Services",
+          "Oracle Cloud Infrastructure Vault",
+          "Oracle Identity and Access Management (IAM) / Oracle Identity Cloud Service",
+          "Oracle Cloud Infrastructure Vault",
+          "",
+          "Oracle Cloud Infrastructure Compliance Documents",
+          "",
+          "Oracle Web Application Firewall"
+        ]
+      }
+    ]
+  },
+  "big_data_&_advanced_analytics": {
+    "displayName": "Big Data & Advanced Analytics Services",
+    "headers": [
+      "Cloud Provider",
+      "Big Data Managed Cluster as a Service",
+      "Big Data Query as a Service",
+      "Business Intelligence & Data Visualization",
+      "Cloud ETL",
+      "Cloud Search",
+      "Data Analytics platform",
+      "Data Warehouse",
+      "Streaming Service",
+      "Third party data exchange"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "Amazon EMR",
+          "Amazon Athena / AWS Lake Formation / Amazon HealthLake (Preview)",
+          "Amazon QuickSight",
+          "AWS Data Pipeline / AWS Glue / Amazon Simple Workflow Service (SWF)",
+          "Amazon CloudSearch / Amazon Elastic Search Service",
+          "",
+          "Amazon Redshift",
+          "Amazon Kinesis / Amazon Kinesis Video Streams",
+          "AWS Data Exchange"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure HDInsight",
+          "Azure Data Lake Analytics",
+          "PowerBI",
+          "Azure Data Factory / Azure Data Catalog / Logic Apps",
+          "Azure Search",
+          "Azure Databricks",
+          "Azure SQL Data Warehouse",
+          "Azure Stream Analytics / Azure Event Hub",
+          "Azure Data Share"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "Cloud DataProc",
+          "BigQuery",
+          "Google Data Studio / Looker",
+          "Cloud DataPrep / Cloud Data Fusion / Cloud Composer",
+          "",
+          "",
+          "BigQuery",
+          "Cloud Dataflow",
+          "Analytics Hub (Preview)"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Big Data Service",
+          "Oracle Big Data SQL Cloud Service",
+          "Oracle Analytics Cloud / Oracle Data Visualization Cloud Service / Oracle Business Intelligence Cloud Service",
+          "Oracle Cloud Infrastructure Data Flow / Oracle Integration / Data Integrator",
+          "",
+          "",
+          "Oracle Autonomous Data Warehouse",
+          "Oracle Cloud Infrastructure Streaming",
+          ""
+        ]
+      }
+    ]
+  },
+  "artificial_intelligence": {
+    "displayName": "Artificial Intelligence / Machine Learning Services",
+    "headers": [
+      "Cloud Provider",
+      "Business analysis",
+      "Image Recognition AI",
+      "Intelligent Search / Search with ML",
+      "Language Processing AI",
+      "Machine Learning",
+      "Machine Learning Frameworks",
+      "Machine Learning Inference",
+      "Speech Recognition AI"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "Amazon Forecast / Amazon Fraud Detector / Amazon Lookout for Metrics / Amazon Augmented AI (Amazon A2I) / Amazon Personalize",
+          "Amazon Rekognition",
+          "Amazon Kendra",
+          "Amazon Lex / Amazon Comprehend",
+          "Amazon Machine Learning / Amazon Sage​Maker / AWS Neuron",
+          "TensorFlow on AWS / PyTorch on AWS / Apache MXNet on AWS",
+          "Amazon Elastic Inference",
+          "Amazon Polly / Amazon Transcribe / Amazon Translate"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Analysis Service / Azure Metrics Advisor / Personalize",
+          "Emotion API / Face API / Computer Vision",
+          "Azure Cognitive Search",
+          "LUIS (Language Understanding Intelligent Service) / Azure Bot Service / Azure Text Analytics",
+          "Azure Machine Learning / Azure Machine Learning Workbench / Azure Machine Learning Model Management",
+          "",
+          "",
+          "Speaker Recognition / Speech To Text / Speech Translation"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "Vertex AI (TensorFlow, PyTorch, XGBoost, Scikit-Learn)",
+          "Vision API / Cloud Video Intelligence",
+          "Vertex Matching Engine",
+          "Natural Language API / Cloud Text-to-Speech (Beta) / DialogFlow Enterprise Edition (Beta)",
+          "Cloud DataLab / Cloud AutoML / Vertex AI",
+          "Vertex AI (TensorFlow, PyTorch, XGBoost, Scikit-Learn)",
+          "Vertex AI Predictions",
+          "Translation API / Speech API"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "Oracle Machine Learning",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  "mobile_services": {
+    "displayName": "Mobile Services Services",
+    "headers": [
+      "Cloud Provider",
+      "Application Services",
+      "Consolidated Mgmt of Multiple Cloud Accounts",
+      "Mobile App Analytics",
+      "Mobile App Development Services",
+      "Mobile App Software Development Toolkit",
+      "Mobile App Testing Service",
+      "Web API Management Service"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS Step Functions / Amazon EventBridge / Amazon AppFlow / Amazon Managed Workflows for Apache Airflow (MWAA)",
+          "Amazon Pinpoint",
+          "Amazon Pinpoint",
+          "AWS Mobile Hub",
+          "AWS Mobile SDK",
+          "AWS Device Farm",
+          "Amazon API Gateway"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Microsoft Flow / Logic Apps / Azure Functions / Event Grid / Azure App Service WebJobs",
+          "Azure Mobile Engagement",
+          "Visual Studio App Center",
+          "Azure Mobile Apps",
+          "Azure Mobile SDK",
+          "App Center Test",
+          "Azure API Management"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "Workflows / EventArc",
+          "",
+          "Firebase Analytics",
+          "Cloud Mobile App",
+          "Cloud Tools for Android Studio",
+          "Cloud Test Lab",
+          "Cloud Endpoints"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Application Express (APEX) / Oracle Visual Builder / Oracle Visual Builder Studio",
+          "Mobile Cloud Service",
+          "Mobile Cloud Service",
+          "Mobile & Chatbots / Mobile Hub",
+          "Oracle Visual Builder",
+          "",
+          "API Platform / Apiary"
+        ]
+      }
+    ]
+  },
+  "automated_cloud_management_service": {
+    "displayName": "Automated Cloud Management Service Services",
+    "headers": [
+      "Cloud Provider",
+      "Managed Cloud Services"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS Managed Services / AWS Cloud Map"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          ""
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          ""
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          ""
+        ]
+      }
+    ]
+  },
+  "application_services": {
+    "displayName": "Application Services Services",
+    "headers": [
+      "Cloud Provider",
+      "API Management Service",
+      "Blockchain Services",
+      "Chatbot",
+      "Email Services",
+      "Media Transcoders",
+      "Mobile Analytics",
+      "Notification Services",
+      "Queuing Services"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "Amazon API Gateway",
+          "Amazon Managed Blockchain / Amazon Quantum Ledger Database (QLDB)",
+          "Amazon Lex / AWS Chatbot / Alexa for Business",
+          "Amazon SES",
+          "AWS Elemental MediaConnect / AWS Elemental MediaConvert / AWS Elemental MediaLive / AWS Elemental MediaPackage / AWS Elemental MediaStore / AWS Elemental MediaTailor / Amazon Kinesis Video Streams / AWS Elemental Live / AWS Elemental Server / AWS Elemental Conductor / AWS Elemental Link / AWS Elemental Delta",
+          "Amazon Pinpoint",
+          "Amazon SNS",
+          "Amazon Simple Queue Service (SQS) / Amazon MQ"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure API Management",
+          "Blockchain / Blockchain Workbench / Azure Blockchain Tokens",
+          "Azure Bot Service",
+          "",
+          "Azure Media Services / Live On Demand Streaming / Azure Media Player / Content Protection / Media Analytics",
+          "Mobile Engagement",
+          "Notification Hubs / Service Bus",
+          "Azure Web PubSub / Queue Storage / Service Bus"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "Apigee API Platform / API Monitization / API Analytics / Apigee Sense / Cloud Endpoints",
+          "",
+          "Dialogflow",
+          "",
+          "Transcoder API",
+          "",
+          "Firebase Cloud Messaging",
+          "Cloud Pub/Sub"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "API Platform / Apiary",
+          "Oracle Blockchain",
+          "Oracle Digital Assistant",
+          "Oracle Cloud Infrastructure Email Delivery",
+          "",
+          "",
+          "Oracle Cloud Infrastructure Notifications",
+          "Integration / Messaging"
+        ]
+      }
+    ]
+  },
+  "business_productivity": {
+    "displayName": "Business Productivity Services",
+    "headers": [
+      "Cloud Provider",
+      "Communications Service",
+      "Desktop Application Streaming",
+      "Office Document Solutions"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "Amazon Chime / Amazon Connect",
+          "Amazon AppStream 2.0 / Amazon WorkSpaces / NICE DCV",
+          "Amazon WorkDocs / Amazon WorkMail / Amazon WorkLink"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Communications Services",
+          "Azure Virtual Desktop",
+          "Microsoft Office 365"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "",
+          "",
+          "Google Workspace"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  "software_marketplace": {
+    "displayName": "Software MarketPlace Services",
+    "headers": [
+      "Cloud Provider",
+      "Cloud Marketplace"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS Marketplace"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure MarketPlace"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "MarketPlace"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Cloud Market Place"
+        ]
+      }
+    ]
+  },
+  "internet_of_things": {
+    "displayName": "Internet of Things Services",
+    "headers": [
+      "Cloud Provider",
+      "IoT Analysis",
+      "IoT Development Solutions",
+      "IoT Hardware",
+      "IoT Platform"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "",
+          "AWS Greengrass",
+          "AWS IoT Button",
+          "AWS IoT Platform"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "",
+          "Azure IoT SDK / Azure IoT Edge",
+          "Azure Sphere",
+          "Azure IoT Platform / Azure IoT Hub"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          "",
+          "",
+          "",
+          "Cloud IoT Core (Beta) / Google Cloud IoT"
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "",
+          "",
+          "",
+          "Internet of Things Cloud Service"
+        ]
+      }
+    ]
+  },
+  "game_development": {
+    "displayName": "Game Development Services",
+    "headers": [
+      "Cloud Provider",
+      "Game Development"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "Amazon Lumberyard"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Visual Studio"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          ""
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          ""
+        ]
+      }
+    ]
+  },
+  "robotics_development": {
+    "displayName": "Robotics Development Services",
+    "headers": [
+      "Cloud Provider",
+      "Robotics Development"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS RoboMaker"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          ""
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          ""
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          ""
+        ]
+      }
+    ]
+  },
+  "development_&_testing": {
+    "displayName": "Development & Testing Services",
+    "headers": [
+      "Cloud Provider",
+      "Development & Testing"
+    ],
+    "providers": [
+      {
+        "name": "AWS",
+        "values": [
+          "AWS Dev/Test"
+        ]
+      },
+      {
+        "name": "Azure",
+        "values": [
+          "Azure Dev/Test"
+        ]
+      },
+      {
+        "name": "GCP",
+        "values": [
+          ""
+        ]
+      },
+      {
+        "name": "Oracle Cloud",
+        "values": [
+          "Oracle Visual Builder Studio"
+        ]
+      }
+    ]
+  }
+}

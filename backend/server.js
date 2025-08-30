@@ -2,8 +2,8 @@
 
 const express = require('express');
 const cors = require('cors');
-const fs = require('fs'); // 👈 Add this line
-const path = require('path'); // 👈 Add this line
+const fs = require('fs'); 
+const path = require('path');
 
 
 // Initialize the app
@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5001;
 app.use(cors());
 app.use(express.json());
 
-// 👇 Add the new API route here
+// Add the new API route here
 app.get('/api/services', (req, res) => {
   const filePath = path.join(__dirname, 'data', 'cloudServices.json');
   

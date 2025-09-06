@@ -1,106 +1,76 @@
  {
-  "Providers": {
-    "AWS": {
-      "name": "Amazon Web Services",
-      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/aws.png"
-    },
-    "Azure": {
-      "name": "Microsoft Azure",
-      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/msazure.svg"
-    },
-    "Google_Cloud_Platform": {
-      "name": "Google Cloud Platform",
-      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/google.svg"
-    },
-    "Oracle": {
-      "name": "Oracle Cloud",
-      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/oracle.png"
-    },
-    "Alibaba": {
-      "name": "Oracle Cloud",
-      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/oracle.png"
-    },
-    "IBM_Cloud": {
-      "name": "Oracle Cloud",
-      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/oracle.png"
-    },
-    "Huawei": {
-      "name": "Oracle Cloud",
-      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/oracle.png"
-    }  
-  },
   "Categories": {
   "AI_ML": {
   "AWS": [
   {
-    "name": "Augmented AI",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Augmented-AI-A2I_64.png"
+  "name": "Augmented AI",
+  "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Amazon-Augmented-AI_A2I.svg"
   },
   {
-    "name": "Comprehend",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Comprehend_64.png"
+  "name": "Comprehend",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Comprehend.svg"
   },
   {
-    "name": "Elastic Inference",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Elastic-Inference_64.png"
+  "name": "Elastic Inference",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Elastic-Inference.svg"
   },
   {
-    "name": "Forecast",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Forecast_64.png"
+  "name": "Forecast",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Forecast.svg"
   },
   {
-    "name": "Fraud Detector",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Fraud-Detector_64.png"
+  "name": "Fraud Detector",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Fraud-Detector.svg"
   },
   {
-    "name": "Kendra",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Kendra_64.png"
+  "name": "Kendra",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Kendra.svg"
   },
   {
-    "name": "Neuron",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_AWS-Neuron_64.png"
+  "name": "Neuron",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2023-11-14/AWS-Neuron.svg"
   },
   {
-    "name": "Lex",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Alexa-For-Business_64.png"
+  "name": "Lex",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Lex.svg"
   },
   {
-    "name": "Lookout for Metrics",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Lookout-for-Metrics_64.png"
+  "name": "Lookout for Metrics",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Lookout-for-Metrics.svg"
   },
   {
-    "name": "PyTorch",
-    "icon": "backend/icons/pytorch.png"
+  "name": "PyTorch",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/PyTorch-on-AWS.svg"
   },
   {
-    "name": "Personalize",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Personalize_64.png"
+  "name": "Personalize",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Personalize.svg"
   },
   {
-    "name": "Polly",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Polly_64.png"
+  "name": "Polly",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Polly.svg"
   },
   {
-    "name": "TensorFlow",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_TensorFlow-on-AWS_64.png"
+  "name": "TensorFlow",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/TensorFlow-on-AWS.svg"
   },
   {
-    "name": "Rekognition",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Rekognition_64.png"
+  "name": "Rekognition",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Rekognition.svg"
   },
   {
-    "name": "SageMaker",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-SageMaker-Ground-Truth_64.png"
+  "name": "SageMaker",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-SageMaker.svg"
   },
   {
-    "name": "Transcribe",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Transcribe_64.png"
+  "name": "Transcribe",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Transcribe.svg"
   },
   {
-    "name": "Translate",
-    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Translate_64.png"
+  "name": "Translate",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Translate.svg"
   }
-],
+  ],
   "Azure": [
   {
   "name": "Bot Service",

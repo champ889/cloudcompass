@@ -89,7 +89,7 @@ const Pricing = () => {
 
   return (
     <section id="pricing" className="py-20">
-      <h2 className="text-3xl font-bold text-center mb-12">Pricing Comparison</h2>
+      <h2 className="text-3xl font-bold text-center mb-12">Pricing Calculator</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <div className="price-calculator p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold mb-4">Price Calculator</h3>

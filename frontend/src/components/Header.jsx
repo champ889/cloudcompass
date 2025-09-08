@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import cloudIcon from '../assets/cloud_icons.png';
 
 const Header = () => {
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);

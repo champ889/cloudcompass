@@ -12,7 +12,7 @@ const app = express();
 
 // Set the port
 const PORT = process.env.PORT || 5001;
-const __dirname = path.resolve();
+// const __dirname = path.resolve();
 
 // Middleware
 if (process.env.NODE_ENV !== "production") {

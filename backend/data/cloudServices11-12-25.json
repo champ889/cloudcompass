@@ -1,0 +1,2140 @@
+ {
+  "Providers": {
+    "AWS": {
+      "name": "Amazon Web Services",
+      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/aws.png"
+    },
+    "Azure": {
+      "name": "Microsoft Azure",
+      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/msazure.svg"
+    },
+    "Google_Cloud_Platform": {
+      "name": "Google Cloud Platform",
+      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/google.svg"
+    },
+    "Oracle": {
+      "name": "Oracle Cloud",
+      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/oracle.png"
+    },
+    "Alibaba": {
+      "name": "Oracle Cloud",
+      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/oracle.png"
+    },
+    "IBM_Cloud": {
+      "name": "Oracle Cloud",
+      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/oracle.png"
+    },
+    "Huawei": {
+      "name": "Oracle Cloud",
+      "logo": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/logo/oracle.png"
+    }  
+  },
+  "Categories": {
+  "AI_ML": {
+  "AWS": [
+  {
+    "name": "Augmented AI",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Augmented-AI-A2I_64.png"
+  },
+  {
+    "name": "Comprehend",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Comprehend_64.png"
+  },
+  {
+    "name": "Elastic Inference",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Elastic-Inference_64.png"
+  },
+  {
+    "name": "Forecast",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Forecast_64.png"
+  },
+  {
+    "name": "Fraud Detector",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Fraud-Detector_64.png"
+  },
+  {
+    "name": "Kendra",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Kendra_64.png"
+  },
+  {
+    "name": "Neuron",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_AWS-Neuron_64.png"
+  },
+  {
+    "name": "Lex",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Alexa-For-Business_64.png"
+  },
+  {
+    "name": "Lookout for Metrics",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Lookout-for-Metrics_64.png"
+  },
+  {
+    "name": "PyTorch",
+    "icon": "/icons/pytorch.png"
+  },
+  {
+    "name": "Personalize",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Personalize_64.png"
+  },
+  {
+    "name": "Polly",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Polly_64.png"
+  },
+  {
+    "name": "TensorFlow",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_TensorFlow-on-AWS_64.png"
+  },
+  {
+    "name": "Rekognition",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Rekognition_64.png"
+  },
+  {
+    "name": "SageMaker",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-SageMaker-Ground-Truth_64.png"
+  },
+  {
+    "name": "Transcribe",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Transcribe_64.png"
+  },
+  {
+    "name": "Translate",
+    "icon": "https://cdn.jsdelivr.net/gh/ilyas-it83/CloudComparer@main/assets/img/cloudproviders/aws/Arch_Amazon-Translate_64.png"
+  }
+],
+  "Azure": [
+  {
+  "name": "Bot Service",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/bot-services.svg"
+  },
+  {
+  "name": "Conversational AI",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cognitive-services.svg"
+  },
+  {
+  "name": "Language Service",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cognitive-services.svg"
+  },
+  {
+  "name": "Face API",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cognitive-services.svg"
+  },
+  {
+  "name": "Speech Services",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cognitive-services.svg"
+  },
+  {
+  "name": "Personalizer",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cognitive-services.svg"
+  },
+  {
+  "name": "Translator",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cognitive-services.svg"
+  },
+  {
+  "name": "Form Recognizer",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cognitive-services.svg"
+  },
+  {
+  "name": "Azure Machine Learning",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/machine-learning.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "AutoML",
+  "icon": "https://www.gstatic.com/cloud/images/products/automl/automl-icon.svg"
+  },
+  {
+  "name": "Dialogflow",
+  "icon": "https://www.gstatic.com/cloud/images/products/dialogflow/dialogflow-icon.svg"
+  },
+  {
+  "name": "Natural Language AI",
+  "icon": "https://www.gstatic.com/cloud/images/products/natural-language-ai/natural-language-ai-icon.svg"
+  },
+  {
+  "name": "Speech-to-Text",
+  "icon": "https://www.gstatic.com/cloud/images/products/speech-to-text/speech-to-text-icon.svg"
+  },
+  {
+  "name": "Text-to-Speech",
+  "icon": "https://www.gstatic.com/cloud/images/products/text-to-speech/text-to-speech-icon.svg"
+  },
+  {
+  "name": "Vertex AI",
+  "icon": "https://www.gstatic.com/cloud/images/products/vertex-ai/vertex-ai-icon.svg"
+  },
+  {
+  "name": "Video AI",
+  "icon": "https://www.gstatic.com/cloud/images/products/video-ai/video-ai-icon.svg"
+  },
+  {
+  "name": "Vision AI",
+  "icon": "https://www.gstatic.com/cloud/images/products/vision-ai/vision-ai-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Data Science",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-datascience.svg"
+  },
+  {
+  "name": "ML Pipelines",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-ml-pipelines.svg"
+  }
+  ]
+  },
+  "Application_Mgmt": {
+  "AWS": [
+  {
+  "name": "Amplify",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Amplify.svg"
+  },
+  {
+  "name": "API Gateway",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-API-Gateway.svg"
+  },
+  {
+  "name": "App Mesh",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-App-Mesh.svg"
+  },
+  {
+  "name": "App Runner",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-App-Runner.svg"
+  },
+  {
+  "name": "AppSync",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-AppSync.svg"
+  },
+  {
+  "name": "Elastic Beanstalk",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Elastic-Beanstalk.svg"
+  },
+  {
+  "name": "Serverless Application Repository",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Serverless-Application-Repository.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "API Apps",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/app-services.svg"
+  },
+  {
+  "name": "API Management",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/api-management.svg"
+  },
+  {
+  "name": "Azure Maps",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-maps.svg"
+  },
+  {
+  "name": "Visual Studio App Center",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/visual-studio-app-center.svg"
+  },
+  {
+  "name": "App Service",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/app-services.svg"
+  },
+  {
+  "name": "Cloud Services",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cloud-services.svg"
+  },
+  {
+  "name": "Service Fabric",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/service-fabric.svg"
+  },
+  {
+  "name": "Web Apps",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/app-services.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "App Engine",
+  "icon": "https://www.gstatic.com/cloud/images/products/app-engine/app-engine-icon.svg"
+  },
+  {
+  "name": "Cloud APIs",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-apis/cloud-apis-icon.svg"
+  },
+  {
+  "name": "Apigee",
+  "icon": "https://www.gstatic.com/cloud/images/products/apigee/apigee-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "API Gateway",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-api-gateway.svg"
+  }
+  ]
+  },
+  "Application_Mobile": {
+  "AWS": [
+  {
+  "name": "Mobile Hub",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Mobile-Hub.svg"
+  },
+  {
+  "name": "Publisher Services",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-SNS.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Mobile Apps",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/app-services.svg"
+  },
+  {
+  "name": "Xamarin with Azure",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/visual-studio.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "App Engine",
+  "icon": "https://www.gstatic.com/cloud/images/products/app-engine/app-engine-icon.svg"
+  },
+  {
+  "name": "Firebase",
+  "icon": "https://www.gstatic.com/cloud/images/products/firebase/firebase-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "NoSQL Database",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-nosql-database.svg"
+  },
+  {
+  "name": "Mobile Hub",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-mobile-hub.svg"
+  },
+  {
+  "name": "Visual Builder Studio",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-visual-builder-studio.svg"
+  }
+  ]
+  },
+  "Automation": {
+  "AWS": [
+  {
+  "name": "OpsWorks",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-OpsWorks.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Automation",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/automation.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Resource Manager",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-resource-manager.svg"
+  }
+  ]
+  },
+  "Compliance": {
+  "AWS": [
+  {
+  "name": "Artifact",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Artifact.svg"
+  },
+  {
+  "name": "Audit Manager",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Audit-Manager.svg"
+  },
+  {
+  "name": "Compliance Center",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2023-11-14/AWS-Security-Hub.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Microsoft Compliance Manager",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/compliance.svg"
+  },
+  {
+  "name": "Trust Center",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/security-center.svg"
+  },
+  {
+  "name": "Assured Workloads",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/security-center.svg"
+  },
+  {
+  "name": "Compliance Reports Manager",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/compliance.svg"
+  }
+  ]
+  },
+  "Compute_Container": {
+  "AWS": [
+  {
+  "name": "App2Container",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-App2Container.svg"
+  },
+  {
+  "name": "Elastic Container Service (ECS)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Elastic-Container-Service.svg"
+  },
+  {
+  "name": "Elastic Kubernetes Service (EKS)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Elastic-Kubernetes-Service.svg"
+  },
+  {
+  "name": "Fargate",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Fargate.svg"
+  },
+  {
+  "name": "Elastic Container Registry (ECR)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Elastic-Container-Registry.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Azure Kubernetes Service (AKS)",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/kubernetes-services.svg"
+  },
+  {
+  "name": "Azure Red Hat OpenShift",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-red-hat-openshift.svg"
+  },
+  {
+  "name": "Container Instances",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/container-instances.svg"
+  },
+  {
+  "name": "Container Registry",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/container-registries.svg"
+  },
+  {
+  "name": "Container Apps",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/container-apps.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Anthos",
+  "icon": "https://www.gstatic.com/cloud/images/products/anthos/anthos-icon.svg"
+  },
+  {
+  "name": "Cloud Run",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-run/cloud-run-icon.svg"
+  },
+  {
+  "name": "Kubernetes Engine",
+  "icon": "https://www.gstatic.com/cloud/images/products/kubernetes-engine/kubernetes-engine-icon.svg"
+  },
+  {
+  "name": "Migrate for Anthos/GKE",
+  "icon": "https://www.gstatic.com/cloud/images/products/migrate-for-anthos/migrate-for-anthos-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Oracle Container Engine for Kubernetes",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-container-engine.svg"
+  },
+  {
+  "name": "Container Instances",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-container-instances.svg"
+  },
+  {
+  "name": "Verrazzano",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-verrazzano.svg"
+  }
+  ]
+  },
+  "Compute_FaaS": {
+  "AWS": [
+  {
+  "name": "Lambda",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Lambda.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Azure Functions",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/functions.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Functions",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-functions/cloud-functions-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "OCI Functions",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-functions.svg"
+  }
+  ]
+  },
+  "Compute_Server": {
+  "AWS": [
+  {
+  "name": "Auto Scaling",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Auto-Scaling.svg"
+  },
+  {
+  "name": "Batch",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Batch.svg"
+  },
+  {
+  "name": "Elastic Compute Cloud (EC2)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-EC2.svg"
+  },
+  {
+  "name": "LightSail",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Lightsail.svg"
+  },
+  {
+  "name": "VMware Cloud on AWS",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/VMware-Cloud-on-AWS.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Autoscale",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/autoscale.svg"
+  },
+  {
+  "name": "Batch",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/batch.svg"
+  },
+  {
+  "name": "Virtual Machines",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/virtual-machines.svg"
+  },
+  {
+  "name": "Azure VMware Solution",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-vmware-solution.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Compute Engine",
+  "icon": "https://www.gstatic.com/cloud/images/products/compute-engine/compute-engine-icon.svg"
+  },
+  {
+  "name": "VMware Engine",
+  "icon": "https://www.gstatic.com/cloud/images/products/vmware-engine/vmware-engine-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Virtual Machine",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-virtual-machine.svg"
+  },
+  {
+  "name": "Autoscaling",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-autoscaling.svg"
+  },
+  {
+  "name": "Dedicated Virtual Machine Hosts",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-dedicated-vm-host.svg"
+  },
+  {
+  "name": "Preemptible Capacity",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-preemptible-capacity.svg"
+  }
+  ]
+  },
+  "Cost": {
+  "AWS": [
+  {
+  "name": "Application Cost Profiler",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Application-Cost-Profiler.svg"
+  },
+  {
+  "name": "Billing",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Billing-and-Cost-Management.svg"
+  },
+  {
+  "name": "Budgets",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Budgets.svg"
+  },
+  {
+  "name": "Cost Anomaly Detection",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Cost-Anomaly-Detection.svg"
+  },
+  {
+  "name": "Cost Categories",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Cost-Categories.svg"
+  },
+  {
+  "name": "Cost Explorer",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Cost-Explorer.svg"
+  },
+  {
+  "name": "Pricing Calculator",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Pricing-Calculator.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Advisor",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/advisor.svg"
+  },
+  {
+  "name": "Cost Management and Billing",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cost-management-billing.svg"
+  },
+  {
+  "name": "Pricing Calculator",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/calculator.svg"
+  },
+  {
+  "name": "TCO Calculator",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/calculator.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cost Management",
+  "icon": "https://www.gstatic.com/cloud/images/products/cost-management/cost-management-icon.svg"
+  },
+  {
+  "name": "Recommender",
+  "icon": "https://www.gstatic.com/cloud/images/products/recommender/recommender-icon.svg"
+  },
+  {
+  "name": "Pricing Calculator",
+  "icon": "https://www.gstatic.com/cloud/images/products/pricing-calculator/pricing-calculator-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Cost Estimator",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-cost-estimator.svg"
+  },
+  {
+  "name": "Oracle Support Rewards",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-support-rewards.svg"
+  },
+  {
+  "name": "Budgets",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-budgets.svg"
+  },
+  {
+  "name": "Operations Insights",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-operations-insights.svg"
+  }
+  ]
+  },
+  "Data_Analytics": {
+  "AWS": [
+  {
+  "name": "Athena",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Athena.svg"
+  },
+  {
+  "name": "CloudSearch",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-CloudSearch.svg"
+  },
+  {
+  "name": "FinSpace",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-FinSpace.svg"
+  },
+  {
+  "name": "Kinesis",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Kinesis.svg"
+  },
+  {
+  "name": "OpenSearch",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-OpenSearch-Service.svg"
+  },
+  {
+  "name": "QuickSight",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-QuickSight.svg"
+  },
+  {
+  "name": "X-Ray",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-X-Ray.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Analysis Services",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/analysis-services.svg"
+  },
+  {
+  "name": "Cognitive Services",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cognitive-services.svg"
+  },
+  {
+  "name": "Databricks",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/databricks.svg"
+  },
+  {
+  "name": "Data Explorer",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/data-explorer.svg"
+  },
+  {
+  "name": "Data Lake Analytics",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/data-lake-analytics.svg"
+  },
+  {
+  "name": "Power BI",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/power-bi-embedded.svg"
+  },
+  {
+  "name": "Stream Analytics",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/stream-analytics-jobs.svg"
+  },
+  {
+  "name": "Synapse Analytics",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-synapse-analytics.svg"
+  },
+  {
+  "name": "Time Series Insights",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/time-series-insights.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "BigQuery",
+  "icon": "https://www.gstatic.com/cloud/images/products/bigquery/bigquery-icon.svg"
+  },
+  {
+  "name": "Dataflow",
+  "icon": "https://www.gstatic.com/cloud/images/products/dataflow/dataflow-icon.svg"
+  },
+  {
+  "name": "Looker",
+  "icon": "https://www.gstatic.com/cloud/images/products/looker/looker-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Data Flow",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-data-flow.svg"
+  },
+  {
+  "name": "Oracle Analytics Cloud",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-analytics-cloud.svg"
+  }
+  ]
+  },
+  "Data_Big_Data": {
+  "AWS": [
+  {
+  "name": "EMR",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-EMR.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "HDInsight",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/hdinsight-clusters.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Dataproc",
+  "icon": "https://www.gstatic.com/cloud/images/products/dataproc/dataproc-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Big Data",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-big-data.svg"
+  }
+  ]
+  },
+  "Data_Database": {
+  "AWS": [
+  {
+  "name": "DocumentDB",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-DocumentDB.svg"
+  },
+  {
+  "name": "DynamoDB",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-DynamoDB.svg"
+  },
+  {
+  "name": "ElastiCache",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-ElastiCache.svg"
+  },
+  {
+  "name": "MemoryDB for Redis",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-MemoryDB-for-Redis.svg"
+  },
+  {
+  "name": "RDS",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-RDS.svg"
+  },
+  {
+  "name": "SimpleDB",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-SimpleDB.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Cache for Redis",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-cache-for-redis.svg"
+  },
+  {
+  "name": "Cosmos DB",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-cosmos-db.svg"
+  },
+  {
+  "name": "Database for MySQL",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-database-for-mysql.svg"
+  },
+  {
+  "name": "Database for PostgreSQL",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-database-for-postgresql.svg"
+  },
+  {
+  "name": "SQL Database",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/sql-databases.svg"
+  },
+  {
+  "name": "Azure SQL Managed Instance",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/sql-managed-instance.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Bigtable",
+  "icon": "https://www.gstatic.com/cloud/images/products/bigtable/bigtable-icon.svg"
+  },
+  {
+  "name": "Cloud Spanner",
+  "icon": "https://www.gstatic.com/cloud/images/products/spanner/spanner-icon.svg"
+  },
+  {
+  "name": "Cloud SQL",
+  "icon": "https://www.gstatic.com/cloud/images/products/sql/sql-icon.svg"
+  },
+  {
+  "name": "Datastore",
+  "icon": "https://www.gstatic.com/cloud/images/products/datastore/datastore-icon.svg"
+  },
+  {
+  "name": "Firestore",
+  "icon": "https://www.gstatic.com/cloud/images/products/firestore/firestore-icon.svg"
+  },
+  {
+  "name": "MemoryStore",
+  "icon": "https://www.gstatic.com/cloud/images/products/memorystore/memorystore-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "ATP",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-autonomous-transaction-processing.svg"
+  },
+  {
+  "name": "Autonomous JSON Database",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-autonomous-json-database.svg"
+  },
+  {
+  "name": "Service for Azure",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-database-service-for-azure.svg"
+  },
+  {
+  "name": "Oracle Base Database Service",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-database.svg"
+  },
+  {
+  "name": "Autonomous Database",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-autonomous-database.svg"
+  },
+  {
+  "name": "MySQL HeatWave database",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-mysql-heatwave.svg"
+  }
+  ]
+  },
+  "Data_Data_Lake": {
+  "AWS": [
+  {
+  "name": "Lake Formation",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Lake-Formation.svg"
+  },
+  {
+  "name": "Data Lake Storage (S3)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-S3.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Data Lake Analytics",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/data-lake-analytics.svg"
+  },
+  {
+  "name": "Data Lake Storage (Blob Storage)",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/data-lake-storage.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Storage",
+  "icon": "https://www.gstatic.com/cloud/images/products/storage/storage-icon.svg"
+  },
+  {
+  "name": "Data Lake Modernization Solution",
+  "icon": "https://www.gstatic.com/cloud/images/products/data-lake-modernization/data-lake-modernization-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "MySQL HeatWave Lakehouse",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-mysql-heatwave.svg"
+  }
+  ]
+  },
+  "Data_DWH": {
+  "AWS": [
+  {
+  "name": "Redshift",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Redshift.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Synapse Analytics",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-synapse-analytics.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "BigQuery",
+  "icon": "https://www.gstatic.com/cloud/images/products/bigquery/bigquery-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Autonomous Data Warehouse",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-autonomous-data-warehouse.svg"
+  },
+  {
+  "name": "MySQL HeatWave database",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-mysql-heatwave.svg"
+  }
+  ]
+  },
+  "DevOps": {
+  "AWS": [
+  {
+  "name": "Cloud9",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Cloud9.svg"
+  },
+  {
+  "name": "CodeBuild",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-CodeBuild.svg"
+  },
+  {
+  "name": "CodeCommit",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-CodeCommit.svg"
+  },
+  {
+  "name": "CodeDeploy",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-CodeDeploy.svg"
+  },
+  {
+  "name": "CodeGuru",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-CodeGuru.svg"
+  },
+  {
+  "name": "CodePipeline",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-CodePipeline.svg"
+  },
+  {
+  "name": "CodeStar",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-CodeStar.svg"
+  },
+  {
+  "name": "DevOps Guru",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-DevOps-Guru.svg"
+  },
+  {
+  "name": "Fault Injection Simulator (FIS)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Fault-Injection-Simulator.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Azure Artifacts",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-artifacts.svg"
+  },
+  {
+  "name": "Azure Boards",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-boards.svg"
+  },
+  {
+  "name": "Azure Pipelines",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-pipelines.svg"
+  },
+  {
+  "name": "Azure Repos",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-repos.svg"
+  },
+  {
+  "name": "Azure Test Plans",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-test-plans.svg"
+  },
+  {
+  "name": "GitHub",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/github.svg"
+  },
+  {
+  "name": "Tekton",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/tekton.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Artifact Registry",
+  "icon": "https://www.gstatic.com/cloud/images/products/artifact-registry/artifact-registry-icon.svg"
+  },
+  {
+  "name": "Binary Authorization",
+  "icon": "https://www.gstatic.com/cloud/images/products/binary-authorization/binary-authorization-icon.svg"
+  },
+  {
+  "name": "Cloud Build",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-build/cloud-build-icon.svg"
+  },
+  {
+  "name": "Cloud Deploy",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-deploy/cloud-deploy-icon.svg"
+  },
+  {
+  "name": "Cloud Operations",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-operations/cloud-operations-icon.svg"
+  },
+  {
+  "name": "Cloud Source Repositories",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-source-repositories/cloud-source-repositories-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Oracle DevOps Service",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-devops.svg"
+  }
+  ]
+  },
+  "Email": {
+  "AWS": [
+  {
+  "name": "Simple Email Service (SES)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Simple-Email-Service.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "WorkMail",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-WorkMail.svg"
+  },
+  {
+  "name": "Microsoft 365",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/microsoft-365.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Email Delivery",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-email-delivery.svg"
+  }
+  ]
+  },
+  "ETL": {
+  "AWS": [
+  {
+  "name": "AppFlow",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-AppFlow.svg"
+  },
+  {
+  "name": "Data Pipeline",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Data-Pipeline.svg"
+  },
+  {
+  "name": "Glue",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Glue.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Data Factory",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/data-factories.svg"
+  },
+  {
+  "name": "Purview",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-purview.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Data Fusion",
+  "icon": "https://www.gstatic.com/cloud/images/products/data-fusion/data-fusion-icon.svg"
+  },
+  {
+  "name": "Dataflow by Trifacta",
+  "icon": "https://www.gstatic.com/cloud/images/products/dataflow/dataflow-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Data Integration",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-data-integration.svg"
+  },
+  {
+  "name": "Data Integrator",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-data-integrator.svg"
+  }
+  ]
+  },
+  "Firewall": {
+  "AWS": [
+  {
+  "name": "Web Application Firewall (WAF)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-WAF.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Application Gateway",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/application-gateways.svg"
+  },
+  {
+  "name": "Firewall",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-firewall.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Armor",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-armor/cloud-armor-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Web Application Firewall",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-waf.svg"
+  }
+  ]
+  },
+  "Hybrid": {
+  "AWS": [
+  {
+  "name": "ECS Anywhere",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-ECS-Anywhere.svg"
+  },
+  {
+  "name": "EKS Anywhere",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-EKS-Anywhere.svg"
+  },
+  {
+  "name": "Local Zones",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Local-Zones.svg"
+  },
+  {
+  "name": "Outposts",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Outposts.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Azure Arc",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-arc.svg"
+  },
+  {
+  "name": "Azure Stack Hub",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-stack.svg"
+  },
+  {
+  "name": "Azure Stack HCI",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-stack.svg"
+  },
+  {
+  "name": "Azure Stack Edge",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-stack.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Anthos",
+  "icon": "https://www.gstatic.com/cloud/images/products/anthos/anthos-icon.svg"
+  },
+  {
+  "name": "Distributed Cloud",
+  "icon": "https://www.gstatic.com/cloud/images/products/distributed-cloud/distributed-cloud-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Verrazzano",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-verrazzano.svg"
+  }
+  ]
+  },
+  "Identity": {
+  "AWS": [
+  {
+  "name": "Cognito",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Cognito.svg"
+  },
+  {
+  "name": "Directory Service",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Directory-Service.svg"
+  },
+  {
+  "name": "Identity and Access",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Identity-and-Access-Management.svg"
+  },
+  {
+  "name": "Single Sign-On (SSO)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Single-Sign-On.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Azure Active Directory (AAD)",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-active-directory.svg"
+  },
+  {
+  "name": "Azure Active Directory B2C",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-ad-b2c.svg"
+  },
+  {
+  "name": "Azure Active Directory Domain Services",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-ad-domain-services.svg"
+  },
+  {
+  "name": "Azure Active Directory Identity Protection",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-ad-identity-protection.svg"
+  },
+  {
+  "name": "Cloud Identity and Access Management (IAM)",
+  "icon": "https://www.gstatic.com/cloud/images/products/identity-access-management/identity-access-management-icon.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Identity Platform",
+  "icon": "https://www.gstatic.com/cloud/images/products/identity-platform/identity-platform-icon.svg"
+  }
+  ]
+  },
+  "IoT": {
+  "AWS": [
+  {
+  "name": "IoT Core",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-IoT-Core.svg"
+  },
+  {
+  "name": "IoT Greengrass",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-IoT-Greengrass.svg"
+  },
+  {
+  "name": "IoT Things Graph",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-IoT-Things-Graph.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Digital Twins",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/digital-twins.svg"
+  },
+  {
+  "name": "IoT Hub",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/iot-hub.svg"
+  },
+  {
+  "name": "IoT Edge",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/iot-edge.svg"
+  },
+  {
+  "name": "IoT Solutions",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/iot-central.svg"
+  },
+  {
+  "name": "IoT Core",
+  "icon": "https://www.gstatic.com/cloud/images/products/iot-core/iot-core-icon.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud IoT Solutions",
+  "icon": "https://www.gstatic.com/cloud/images/products/iot-core/iot-core-icon.svg"
+  },
+  {
+  "name": "Cloud IoT Core",
+  "icon": "https://www.gstatic.com/cloud/images/products/iot-core/iot-core-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Compute Cloud@Customer",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-compute-cloud-at-customer.svg"
+  },
+  {
+  "name": "OCI Dedicated Region",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-dedicated-region.svg"
+  }
+  ]
+  },
+  "Key_Secret": {
+  "AWS": [
+  {
+  "name": "CloudHSM",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-CloudHSM.svg"
+  },
+  {
+  "name": "Key Management Service (KMS)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Key-Management-Service.svg"
+  },
+  {
+  "name": "Secrets Manager",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Secrets-Manager.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Dedicated HSM",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/key-vault.svg"
+  },
+  {
+  "name": "Key Vault",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/key-vault.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Key Management",
+  "icon": "https://www.gstatic.com/cloud/images/products/key-management-service/key-management-service-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Vault",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-vault.svg"
+  }
+  ]
+  },
+  "Logging": {
+  "AWS": [
+  {
+  "name": "CloudTrail",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-CloudTrail.svg"
+  },
+  {
+  "name": "CloudWatch Logs",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-CloudWatch.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Activity Log",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/monitor.svg"
+  },
+  {
+  "name": "Resource Log",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/monitor.svg"
+  },
+  {
+  "name": "AAD Audit Log",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-active-directory.svg"
+  },
+  {
+  "name": "Monitor Logs",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/monitor.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Audit Logs",
+  "icon": "https://www.gstatic.com/cloud/images/products/logging/logging-icon.svg"
+  },
+  {
+  "name": "Cloud Logging",
+  "icon": "https://www.gstatic.com/cloud/images/products/logging/logging-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Audit",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-audit.svg"
+  },
+  {
+  "name": "Logging",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-logging.svg"
+  }
+  ]
+  },
+  "Messaging": {
+  "AWS": [
+  {
+  "name": "MQ",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-MQ.svg"
+  },
+  {
+  "name": "Simple Notification Service (SNS)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Simple-Notification-Service.svg"
+  },
+  {
+  "name": "Simple Queue Service (SQS)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Simple-Queue-Service.svg"
+  },
+  {
+  "name": "Pinpoint",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Pinpoint.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Event Grid",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/event-grid.svg"
+  },
+  {
+  "name": "Event Hub",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/event-hubs.svg"
+  },
+  {
+  "name": "Service Bus",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/service-bus.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Pub/Sub",
+  "icon": "https://www.gstatic.com/cloud/images/products/pubsub/pubsub-icon.svg"
+  },
+  {
+  "name": "Firebase Cloud Messaging (FCM)",
+  "icon": "https://www.gstatic.com/cloud/images/products/firebase/firebase-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Events",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-events.svg"
+  },
+  {
+  "name": "Streaming",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-streaming.svg"
+  },
+  {
+  "name": "Notifications",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-notifications.svg"
+  }
+  ]
+  },
+  "Migration": {
+  "AWS": [
+  {
+  "name": "Database Migration Service (DMS)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Database-Migration-Service.svg"
+  },
+  {
+  "name": "DataSync",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-DataSync.svg"
+  },
+  {
+  "name": "Migration Hub",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Migration-Hub.svg"
+  },
+  {
+  "name": "Snow Family",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Snow-Family.svg"
+  },
+  {
+  "name": "Transfer Family",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Transfer-Family.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Database Migration Service",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/database-migration-service.svg"
+  },
+  {
+  "name": "Data Box",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/databox.svg"
+  },
+  {
+  "name": "File Sync",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-file-sync.svg"
+  },
+  {
+  "name": "Import/Export",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/storage-import-export.svg"
+  },
+  {
+  "name": "Migrate",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-migrate.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Database Migration Service",
+  "icon": "https://www.gstatic.com/cloud/images/products/database-migration-service/database-migration-service-icon.svg"
+  },
+  {
+  "name": "Migrate for Compute Engine",
+  "icon": "https://www.gstatic.com/cloud/images/products/migrate-for-compute-engine/migrate-for-compute-engine-icon.svg"
+  },
+  {
+  "name": "Storage Transfer Service",
+  "icon": "https://www.gstatic.com/cloud/images/products/storage-transfer-service/storage-transfer-service-icon.svg"
+  },
+  {
+  "name": "Transfer Appliance",
+  "icon": "https://www.gstatic.com/cloud/images/products/transfer-appliance/transfer-appliance-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "GoldenGate",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-goldengate.svg"
+  },
+  {
+  "name": "Zero Downtime Migration",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-zero-downtime-migration.svg"
+  },
+  {
+  "name": "Migration Service",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-migration.svg"
+  },
+  {
+  "name": "Cloud Migrations",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-cloud-migrations.svg"
+  }
+  ]
+  },
+  "Monitoring": {
+  "AWS": [
+  {
+  "name": "CloudWatch",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-CloudWatch.svg"
+  },
+  {
+  "name": "X-Ray",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-X-Ray.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Monitor",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/monitor.svg"
+  },
+  {
+  "name": "Network Watcher",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/network-watcher.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Monitoring",
+  "icon": "https://www.gstatic.com/cloud/images/products/monitoring/monitoring-icon.svg"
+  },
+  {
+  "name": "Cloud Trace",
+  "icon": "https://www.gstatic.com/cloud/images/products/trace/trace-icon.svg"
+  },
+  {
+  "name": "Error Reporting",
+  "icon": "https://www.gstatic.com/cloud/images/products/error-reporting/error-reporting-icon.svg"
+  },
+  {
+  "name": "Firebase Performance Monitoring",
+  "icon": "https://www.gstatic.com/cloud/images/products/firebase/firebase-icon.svg"
+  },
+  {
+  "name": "Network Intelligence Center",
+  "icon": "https://www.gstatic.com/cloud/images/products/network-intelligence-center/network-intelligence-center-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Monitoring",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-monitoring.svg"
+  },
+  {
+  "name": "Management Agent",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-management-agent.svg"
+  },
+  {
+  "name": "Virtual Test Access Points",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-vtap.svg"
+  },
+  {
+  "name": "Inter-Region Latency",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-inter-region-latency.svg"
+  },
+  {
+  "name": "DevOps Monitoring",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-devops.svg"
+  },
+  {
+  "name": "Network Visualizer",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-network-visualizer.svg"
+  }
+  ]
+  },
+  "Network_CDN": {
+  "AWS": [
+  {
+  "name": "CloudFront",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-CloudFront.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Content Delivery Network (CDN)",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/cdn.svg"
+  },
+  {
+  "name": "Front Door",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/front-door.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud CDN",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-cdn/cloud-cdn-icon.svg"
+  }
+  ]
+  },
+  "Network_Connection": {
+  "AWS": [
+  {
+  "name": "Cloud WAN",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Cloud-WAN.svg"
+  },
+  {
+  "name": "Direct Connect",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Direct-Connect.svg"
+  },
+  {
+  "name": "PrivateLink",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-PrivateLink.svg"
+  },
+  {
+  "name": "VPN",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-VPN.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "ExpressRoute",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/expressroute.svg"
+  },
+  {
+  "name": "Private Link",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/private-link.svg"
+  },
+  {
+  "name": "Virtual WAN",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/virtual-wan.svg"
+  },
+  {
+  "name": "VPN Gateway",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/vpn-gateways.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Router",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-router/cloud-router-icon.svg"
+  },
+  {
+  "name": "Cloud VPN",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-vpn/cloud-vpn-icon.svg"
+  },
+  {
+  "name": "Network Connectivity Center",
+  "icon": "https://www.gstatic.com/cloud/images/products/network-connectivity-center/network-connectivity-center-icon.svg"
+  },
+  {
+  "name": "Interconnect",
+  "icon": "https://www.gstatic.com/cloud/images/products/interconnect/interconnect-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "FastConnect",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-fastconnect.svg"
+  }
+  ]
+  },
+  "Network_Core": {
+  "AWS": [
+  {
+  "name": "Virtual Private Cloud (VPC)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-VPC.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Virtual Network",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/virtual-networks.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Virtual Private Cloud (VPC)",
+  "icon": "https://www.gstatic.com/cloud/images/products/virtual-private-cloud/virtual-private-cloud-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Virtual Cloud Network",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-vcn.svg"
+  }
+  ]
+  },
+  "Network_DNS": {
+  "AWS": [
+  {
+  "name": "Route 53",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Route-53.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "DNS",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/dns-zones.svg"
+  },
+  {
+  "name": "Traffic Manager",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/traffic-manager-profiles.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud DNS",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-dns/cloud-dns-icon.svg"
+  },
+  {
+  "name": "Cloud Domains",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-domains/cloud-domains-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "DNS",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-dns.svg"
+  }
+  ]
+  },
+  "Network_LB": {
+  "AWS": [
+  {
+  "name": "App Mesh",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-App-Mesh.svg"
+  },
+  {
+  "name": "Elastic Load Balancing (ELB)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-EC2-Elastic-Load-Balancer.svg"
+  },
+  {
+  "name": "Global Accelerator",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Global-Accelerator.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Application Gateway",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/application-gateways.svg"
+  },
+  {
+  "name": "Cross-region Load Balancer",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/load-balancers.svg"
+  },
+  {
+  "name": "Load Balancer",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/load-balancers.svg"
+  },
+  {
+  "name": "Traffic Director",
+  "icon": "https://www.gstatic.com/cloud/images/products/traffic-director/traffic-director-icon.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Load Balancing",
+  "icon": "https://www.gstatic.com/cloud/images/products/load-balancing/load-balancing-icon.svg"
+  }
+  ]
+  },
+  "Network_MISC": {
+  "AWS": [
+  {
+  "name": "NAT Gateways",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-VPC-NAT-Gateway.svg"
+  },
+  {
+  "name": "Transit Gateway",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Transit-Gateway.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "NAT Gateway",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/nat.svg"
+  },
+  {
+  "name": "Network Watcher",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/network-watcher.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud NAT",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-nat/cloud-nat-icon.svg"
+  },
+  {
+  "name": "Network Intelligence Center",
+  "icon": "https://www.gstatic.com/cloud/images/products/network-intelligence-center/network-intelligence-center-icon.svg"
+  },
+  {
+  "name": "Network Service Tiers",
+  "icon": "https://www.gstatic.com/cloud/images/products/network-service-tiers/network-service-tiers-icon.svg"
+  }
+  ]
+  },
+  "Optimization": {
+  "AWS": [
+  {
+  "name": "Compute Optimizer",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Compute-Optimizer.svg"
+  },
+  {
+  "name": "Trusted Advisor",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Trusted-Advisor.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Advisor",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/advisor.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Recommender",
+  "icon": "https://www.gstatic.com/cloud/images/products/recommender/recommender-icon.svg"
+  }
+  ]
+  },
+  "Queue": {
+  "AWS": [
+  {
+  "name": "Simple Queue Service (SQS)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Simple-Queue-Service.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Queue Storage",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/storage-queues.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Tasks",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-tasks/cloud-tasks-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Queue",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-queue.svg"
+  }
+  ]
+  },
+  "Resource_Mgmt": {
+  "AWS": [
+  {
+  "name": "Account",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Account.svg"
+  },
+  {
+  "name": "Control Tower",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Control-Tower.svg"
+  },
+  {
+  "name": "Organizations",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Organizations.svg"
+  },
+  {
+  "name": "Resource Access Manager (RAM)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Resource-Access-Manager.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Azure Active Directory (AAD) (Tenant)",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-active-directory.svg"
+  },
+  {
+  "name": "Azure Resource Manager (ARM)",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/resource-manager.svg"
+  },
+  {
+  "name": "Resource Group",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/resource-groups.svg"
+  },
+  {
+  "name": "Resource Graph",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/resource-graph-explorer.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Asset Inventory",
+  "icon": "https://www.gstatic.com/cloud/images/products/asset-inventory/asset-inventory-icon.svg"
+  },
+  {
+  "name": "Organization",
+  "icon": "https://www.gstatic.com/cloud/images/products/resource-manager/resource-manager-icon.svg"
+  },
+  {
+  "name": "Projects",
+  "icon": "https://www.gstatic.com/cloud/images/products/resource-manager/resource-manager-icon.svg"
+  },
+  {
+  "name": "Resource Manager",
+  "icon": "https://www.gstatic.com/cloud/images/products/resource-manager/resource-manager-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Resource Manager",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-resource-manager.svg"
+  },
+  {
+  "name": "IAM",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-iam.svg"
+  }
+  ]
+  },
+  "SAP": {
+  "AWS": [
+  {
+  "name": "SAP on AWS",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/SAP-on-AWS.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "SAP on Azure",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/sap-on-azure.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "SAP on Google Cloud",
+  "icon": "https://www.gstatic.com/cloud/images/products/sap/sap-icon.svg"
+  }
+  ]
+  },
+  "Security": {
+  "AWS": [
+  {
+  "name": "Audit Manager",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Audit-Manager.svg"
+  },
+  {
+  "name": "GuardDuty",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-GuardDuty.svg"
+  },
+  {
+  "name": "Inspector",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Inspector.svg"
+  },
+  {
+  "name": "DDoS Protection",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Shield.svg"
+  },
+  {
+  "name": "Security Hub",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Security-Hub.svg"
+  },
+  {
+  "name": "Shield",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Shield.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Defender for Cloud",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/security-center.svg"
+  },
+  {
+  "name": "Defender for Cloud Apps",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/security-center.svg"
+  },
+  {
+  "name": "Defender for Cloud (and Azure Defender)",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/security-center.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Armor",
+  "icon": "https://www.gstatic.com/cloud/images/products/cloud-armor/cloud-armor-icon.svg"
+  },
+  {
+  "name": "Security Command Center",
+  "icon": "https://www.gstatic.com/cloud/images/products/security-command-center/security-command-center-icon.svg"
+  },
+  {
+  "name": "Chronicle",
+  "icon": "https://www.gstatic.com/cloud/images/products/chronicle/chronicle-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "OCI Web Application Firewall",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-waf.svg"
+  },
+  {
+  "name": "Layer 3/4 DDoS Protection",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-ddos-protection.svg"
+  },
+  {
+  "name": "Threat Detector",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-threat-intelligence.svg"
+  },
+  {
+  "name": "Application Dependency Management",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-adm.svg"
+  },
+  {
+  "name": "Vulnerability Scanning",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-vulnerability-scanning.svg"
+  }
+  ]
+  },
+  "Storage": {
+  "AWS": [
+  {
+  "name": "Elastic Block Store (EBS)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Elastic-Block-Store.svg"
+  },
+  {
+  "name": "Elastic File System (EFS)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-Elastic-File-System.svg"
+  },
+  {
+  "name": "FSx",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-FSx.svg"
+  },
+  {
+  "name": "Simple Storage Service (S3)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/Amazon-S3.svg"
+  },
+  {
+  "name": "Storage Gateway",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Storage-Gateway.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Blob Storage",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/storage-accounts.svg"
+  },
+  {
+  "name": "Confidential Ledger",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-confidential-ledger.svg"
+  },
+  {
+  "name": "Data Lake Storage",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/data-lake-storage.svg"
+  },
+  {
+  "name": "Disk Storage",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/disks.svg"
+  },
+  {
+  "name": "Files",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/storage-files.svg"
+  },
+  {
+  "name": "NetApp Files",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/azure-netapp-files.svg"
+  },
+  {
+  "name": "StorSimple",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/storsimple-device-managers.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Storage",
+  "icon": "https://www.gstatic.com/cloud/images/products/storage/storage-icon.svg"
+  },
+  {
+  "name": "Filestore",
+  "icon": "https://www.gstatic.com/cloud/images/products/filestore/filestore-icon.svg"
+  },
+  {
+  "name": "Persistent Disk",
+  "icon": "https://www.gstatic.com/cloud/images/products/persistent-disk/persistent-disk-icon.svg"
+  },
+  {
+  "name": "Local SSD",
+  "icon": "https://www.gstatic.com/cloud/images/products/local-ssd/local-ssd-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Object Storage",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-object-storage.svg"
+  },
+  {
+  "name": "File Storage",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-file-storage.svg"
+  }
+  ]
+  },
+  "Workflow": {
+  "AWS": [
+  {
+  "name": "Simple Workflow Service (SWF)",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Step-Functions.svg"
+  },
+  {
+  "name": "Step Functions",
+  "icon": "https://static.gscontent.io/prod/images/assets/aws/2022-07-20/AWS-Step-Functions.svg"
+  }
+  ],
+  "Azure": [
+  {
+  "name": "Logic Apps",
+  "icon": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/media/logic-apps.svg"
+  }
+  ],
+  "Google_Cloud_Platform": [
+  {
+  "name": "Cloud Composer",
+  "icon": "https://www.gstatic.com/cloud/images/products/composer/composer-icon.svg"
+  },
+  {
+  "name": "Workflows",
+  "icon": "https://www.gstatic.com/cloud/images/products/workflows/workflows-icon.svg"
+  }
+  ],
+  "Oracle": [
+  {
+  "name": "Process Automation",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-process-automation.svg"
+  },
+  {
+  "name": "Workflow",
+  "icon": "https://www.oracle.com/a/ocom/img/cb126-oci-workflow.svg"
+  }
+  ]
+  }
+  }
+  }

@@ -6,7 +6,7 @@ const Hero = () => {
     };
 
     return (
-        <section id="home" className="pt-20 pb-40 px-4 bg-gradient-to-br from-blue-600 to-indigo-900 text-white">
+        <section id="home" className="mt-20 pt-20 pb-40 px-4 bg-gradient-to-br from-blue-600 to-indigo-900 text-white">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center">
                     <h1 className="text-4xl md:text-6xl font-bold mb-6">CloudCompass</h1>

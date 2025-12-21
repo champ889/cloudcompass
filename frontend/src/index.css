@@ -58,6 +58,8 @@ nav {
     background-color: var(--background-color);
 }
 
+input{padding: 1.5%;}
+
 
 
 button.active {

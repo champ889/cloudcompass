@@ -1,27 +1,36 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Architecture from './components/Architecture';
-import Pricing from './components/Pricing';
-import News from './components/News';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Hero from './components/Hero';
+import NetworkingComparison from './components/NetworkingComparison';
+import KubernetesComparison from './components/KubernetesComparison';
+import CostCalculator from './components/CostCalculator';
+import Newsletter from './components/Newsletter';
+
+function HomePage() {
+  return (
+    <main className="max-w-7xl mx-auto px-4">
+      <Hero />
+      <NetworkingComparison />
+      <KubernetesComparison />
+      <CostCalculator />
+      <Newsletter />
+    </main>
+  );
+}
 
 function App() {
   return (
-    <div id="app">
-      <Header />
-      <Hero />
-      <main className="max-w-7xl mx-auto px-4">
-        <Services />
-        <Architecture />
-        <Pricing />
-        <News />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div id="app">
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
